@@ -1,118 +1,144 @@
 [
+  {
+    "name": "effort: 1",
+    "color": "91ca55",
+    "description": "1 points"
+  },
+  {
+    "name": "effort: 2",
+    "color": "c2e2a2",
+    "description": "2 points"
+  },
+  {
+    "name": "effort: 3",
+    "color": "e9f4dc",
+    "description": "3 points"
+  },
+  {
+    "name": "effort: 5",
+    "color": "fef6d7",
+    "description": "5 points"
+  },
+  {
+    "name": "effort: 8",
+    "color": "fef2c0",
+    "description": "8 points"
+  },
+  {
+    "name": "effort: 13",
+    "color": "fbca04",
+    "description": "13 points"
+  },
+  {
+    "name": "effort: 20",
+    "color": "fbca04",
+    "description": "20 points"
+  },
 	{
 		"name": "type: bug",
-		"color": "e11d21",
+		"color": "DD0000",
 		"aliases": [
 			"bug"
-		]
+		],
+    "description": "Something isn't working"
 	},
 	{
-		"name": "type: breaking",
-		"color": "990000",
-		"aliases": [
-			"breaking",
-			"breaking-change"
-		]
-	},
-	{
-		"name": "type: maintenance",
+		"name": "type: refactor",
 		"color": "fbca04",
 		"aliases": [
 			"maintenance",
 			"refactor",
 			"testing",
 			"test"
-		]
+		],
+    "description": "Refactor of an existing code"
 	},
 	{
-		"name": "type: enhancement",
+		"name": "type: feature",
 		"color": "009800",
 		"aliases": [
 			"enhancement",
 			"feature"
-		]
-	},
-	{
-		"name": "type: question",
-		"color": "cc317c",
-		"aliases": [
-			"question"
-		]
+		],
+    "description": "Feature definition"
 	},
 	{
 		"name": "type: discussion",
 		"color": "cc317c",
 		"aliases": [
 			"discussion"
-		]
+		],
+    "description": "Discuss about a topic"
 	},
 	{
 		"name": "type: documentation",
 		"color": "207de5",
 		"aliases": [
 			"documentation"
-		]
-	},
-	{
-		"name": "type: design",
-		"color": "eb6420",
-		"aliases": [
-			"design"
-		]
+		],
+    "description": "Improvements or additions to documentation"
 	},
 	{
 		"name": "priority: low",
-		"color": "009800"
+		"color": "009800",
+    "description": "Solve it when you have nothing better to do"
 	},
 	{
 		"name": "priority: medium",
-		"color": "fbca04"
+		"color": "fbca04",
+    "description": "Solve it whenever you can"
 	},
 	{
 		"name": "priority: high",
-		"color": "eb6420"
+		"color": "aa0000",
+    "description": "Please solve it as soon as possible"
 	},
 	{
 		"name": "priority: critical",
-		"color": "e11d21"
-	},
-	{
-		"name": "status: good starter issue",
-		"color": "bfe5bf",
-		"aliases": [
-			"beginner-friendly",
-			"beginner",
-			"good-starter-issue",
-			"starter-issue"
-		]
+		"color": "ff0000",
+    "description": "Solve it now madafacka!"
 	},
 	{
 		"name": "status: help wanted",
 		"color": "bfe5bf",
 		"aliases": [
 			"help wanted"
-		]
+		],
+    "description": "Help Wanted"
 	},
 	{
-		"name": "status: wontfix",
-		"color": "cccccc",
+		"name": "status: WIP",
+		"color": "91ca55",
 		"aliases": [
-			"wontfix",
-			"wont-fix"
-		]
+			"work in progress",
+			"wip"
+		],
+    "description": "Work in Progress"
 	},
 	{
-		"name": "status: duplicate",
-		"color": "cccccc",
+		"name": "status: review",
+		"color": "5ebeff",
 		"aliases": [
 			"duplicate"
-		]
+		],
+    "description": "It's under review"
 	},
 	{
 		"name": "status: blocked",
 		"color": "990000",
 		"aliases": [
 			"blocked"
-		]
+		],
+    "description": "Blocked by other task/person/process"
+	},
+	{
+		"name": "status: RTD",
+		"color": "fbca04",
+		"aliases": [
+			"rtd",
+      "ready to deploy"
+		],
+    "description": "Ready to Deploy"
 	}
+
 ]
